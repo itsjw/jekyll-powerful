@@ -25,7 +25,8 @@ description: > # this means to ignore newlines until "baseurl:"
 # http://127.0.0.1:4000/jekyll-powerful/jekyll/update/welcome-to-jekyll.html
 
 baseurl: "/jekyll-powerful" # the subpath of your site, e.g. /blog
-url: "https://nandomoreira.me" # the base hostname & protocol for your site
+# url: "https://nandomoreira.me" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
@@ -35,7 +36,3 @@ permalink: "/:title"
 # Build settings
 markdown: kramdown
 theme: minima
-
-categoty:
-  - html: HTML
-  - css: CSS
